@@ -12,6 +12,6 @@ function Book () {
     }
 }
 
-const book = new Book();
-book.toggleReadStatus();
-console.log(book.descripe());
+const b = new Book();
+b.toggleReadStatus();
+console.log(b.descripe());
