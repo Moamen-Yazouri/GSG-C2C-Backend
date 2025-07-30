@@ -2,8 +2,8 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 const utils_1 = require("./utils");
 class BaseRepository {
+    items = [];
     constructor(data) {
-        this.items = [];
         this.items = data;
     }
     async getAllItems() {
